@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="local_ad_app_packages">
+		<item>org.baole.app.blacklist</item>
+		<item>org.baole.app.groupsmsad2</item>
+		<item>org.baole.app.gvsms</item>
+		<item>org.baole.rootuninstall</item>
+		<item>org.baole.antibomberdonate</item>
+		<item>org.baole.smslimitremover</item>
+	</string-array>
+
+	<string-array name="local_ad_app_names">
+		<item>Blacklist</item>
+		<item>Group SMS</item>
+		<item>Google Voice SMS</item>
+		<item>Root Uninstaller</item>
+		<item>Anti SMS Bomber</item>
+		<item>SMS Limit Remover</item>
+	</string-array>
+
+	<string-array name="local_ad_app_desc">
+		<item>Block unwanted calls/sms</item>
+		<item>Send mass sms to your friends, customers</item>
+		<item>Improve GV with group SMS</item>
+		<item>Uninstaller system apps, ex. trial games</item>
+		<item>Stay safe with ANTI BOMBER</item>
+		<item>Remove system popup when sending mass sms</item>
+	</string-array>
+
+</resources>

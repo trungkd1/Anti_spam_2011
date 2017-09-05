@@ -1,0 +1,76 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.baole.app.antismsspam" android:versionCode="21"
+	android:versionName="1.23">
+
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="android.permission.WRITE_SMS" />
+	<uses-permission android:name="android.permission.READ_SMS" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+	<uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+	<uses-permission android:name="android.permission.PROCESS_CALL" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+	<uses-sdk android:minSdkVersion="5" />
+
+	<application android:icon="@drawable/ic_home"
+		android:label="@string/app_name" android:name="org.baole.app.antismsspam.AntiSpamApplication">
+
+		<activity android:name="com.google.ads.AdActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation" />
+
+		<activity android:name=".BaseMain" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+
+		<activity android:name="org.baole.app.antismsspam.WhitelistSettingActivity"
+			android:label="@string/whitelist_setting" />
+		<activity android:name="org.baole.app.antismsspam.BlacklistActivity"
+			android:label="@string/blacklist_setting" />
+		<activity android:name="org.baole.app.antismsspam.PrivateActivity"
+			android:label="@string/private_box" android:theme="@android:style/Theme.NoTitleBar" />
+		<activity android:name="org.baole.app.antismsspam.PasswordActivity"
+			android:label="Password" android:windowSoftInputMode="stateVisible" />
+
+		<activity android:name="org.baole.app.antismsspam.PrivateSettingActivity"
+			android:label="Private SMS Setting" />
+		<activity android:name="org.baole.app.antismsspam.PrivateBoxSettings"
+			android:label="Private Box Settings" />
+
+		<activity android:name="org.baole.app.antismsspam.ContactPickerActivity"
+			android:label="Pick a contact" />
+
+		<activity android:name="org.baole.app.antismsspam.ComposeActivity"
+			android:label="Compose" />
+			
+		<receiver android:name="org.baole.app.service.SmsPageReceiver"
+			android:enabled="true">
+			<intent-filter android:priority="1">
+				<action android:name="android.provider.Telephony.SMS_RECEIVED" />
+			</intent-filter>
+		</receiver>
+
+		<receiver android:name="org.baole.app.service.DialReceiver"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.NEW_OUTGOING_CALL"
+					android:priority="0" />
+			</intent-filter>
+		</receiver>
+		<activity android:name="SettingLayout"></activity>
+		<activity android:name="CustomFunction"></activity>
+		<activity android:name="imageSwitcher"></activity>
+		<activity android:name="imageSwitcherInc"></activity>
+		<activity android:name="imageSwitcherOut"></activity>
+
+
+	</application>
+</manifest> 

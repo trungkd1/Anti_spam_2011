@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	
+	android:orientation="vertical" android:id="@+id/layout" >
+	
+	
+	<LinearLayout  android:layout_width="wrap_content" android:background="#ffffff"
+		 android:layout_height="wrap_content" android:layout_gravity="right" android:id="@+id/layoutIncoming"
+		android:orientation="vertical" android:layout_marginTop="5dip">
+
+		<LinearLayout 
+			android:layout_marginRight="10px" 
+			android:layout_height="wrap_content" android:paddingRight="20px"
+			 android:layout_width="wrap_content">
+
+			<ImageView android:id="@+id/iconIncoming" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+				android:src="@drawable/icon" />
+
+			<TextView android:id="@+id/textContentIncoming"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_toRightOf="@+id/iconIncoming" android:text="Some text"
+				android:textColor="#000000" />		
+		</LinearLayout>
+
+
+		<TextView android:id="@+id/textCreatedIncoming" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="right"
+			android:layout_below="@+id/this_is_above" android:paddingRight="20px"
+			android:textColor="#000000" android:layout_marginRight="10px"
+			android:textSize="10dip" />
+	</LinearLayout>
+	
+	
+	<LinearLayout  android:layout_width="wrap_content" android:background="#ffffff"
+		 android:layout_height="wrap_content" android:layout_gravity="left" android:id="@+id/layoutOutgoing"
+		android:orientation="vertical"  android:layout_marginTop="5dip">
+
+		<LinearLayout 
+			android:layout_marginRight="10px" 
+			android:layout_height="wrap_content" android:paddingRight="20px"
+			 android:layout_width="wrap_content">
+
+			<ImageView android:id="@+id/iconOutgoing" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+				android:src="@drawable/icon" />
+
+			<TextView android:id="@+id/textContentOutgoing"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_toRightOf="@+id/iconOutgoing" android:text="Some text"
+				android:textColor="#000000" />		
+		</LinearLayout>
+
+
+		<TextView android:id="@+id/textCreatedOutgoing" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="right"
+			android:layout_below="@+id/this_is_above" android:paddingRight="20px"
+			android:textColor="#000000" android:layout_marginRight="10px"
+			android:textSize="10dip" />
+	</LinearLayout>
+	
+	
+		
+</LinearLayout>

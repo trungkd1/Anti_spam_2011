@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<LinearLayout android:id="@+id/ad_container"
+		android:layout_height="wrap_content" android:gravity="top"
+		android:layout_width="fill_parent">
+	</LinearLayout>
+
+	<ToggleButton android:id="@+id/btnUnknownNumber"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textOn="@string/number_not_in_contact_on" android:textOff="@string/number_not_in_contact_off"
+		android:ellipsize="middle" />
+
+	<TextView android:text="@string/block_keywords" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/txtInfo1"
+		android:gravity="center_vertical|center_horizontal" />
+	<EditText android:layout_width="fill_parent" android:hint="@string/keyword_hint"
+		android:maxLines="3" android:layout_height="wrap_content"
+		android:minLines="1"
+		android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+		android:maxLength="1000" android:imeOptions="actionSend|flagNoEnterAction"
+		android:id="@+id/txtKeywords" />
+
+	<TextView android:text="@string/block_numbers" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/txtInfo1"
+		android:gravity="center_vertical|center_horizontal" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<AutoCompleteTextView
+			android:completionThreshold="1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="0.8"
+			android:hint="@string/input_number_hint" android:id="@+id/txtNumber" />
+
+		<ImageView android:layout_weight="0.1" android:id="@+id/btnAdd"
+			android:src="@drawable/addicon" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_marginRight="5px"
+			android:layout_gravity="right|center_vertical" android:background="@drawable/btn_background"/>
+
+		<ImageView android:layout_weight="0.1" android:id="@+id/btnImport"
+			android:src="@drawable/importicon" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_marginRight="5px"
+			android:layout_gravity="right|center_vertical" android:background="@drawable/btn_background"/>
+	</LinearLayout>
+
+	<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+		android:layout_height="0dip" android:layout_weight="1.0">
+	</ListView>
+</LinearLayout>
+

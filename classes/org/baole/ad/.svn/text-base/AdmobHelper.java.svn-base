@@ -1,0 +1,21 @@
+package org.baole.ad;
+
+import android.app.Activity;
+import android.view.ViewGroup;
+
+public class AdmobHelper {
+	public static final boolean HAS_ADS = false;
+
+	public AdmobHelper(Activity a) {
+	}
+
+	public void onDestroy() {
+	}
+
+	public void setActivity(Activity a) {
+	}
+
+	public void setup(ViewGroup container, String adId, boolean isRequestAd) {
+	}
+
+}

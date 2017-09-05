@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout
+END
+compose_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sms_utils/!svn/ver/69/antismsspam/AntiSMSSpam/res/layout/compose_activity.xml
+END
+customnumber.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/customnumber.xml
+END
+popup_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/popup_settings.xml
+END
+blacklist_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/blacklist_activity.xml
+END
+private_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/private_activity.xml
+END
+whitelist_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/whitelist_activity.xml
+END
+row2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms_utils/!svn/ver/69/antismsspam/AntiSMSSpam/res/layout/row2.xml
+END
+set_background.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sms_utils/!svn/ver/69/antismsspam/AntiSMSSpam/res/layout/set_background.xml
+END
+imageswitcher.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sms_utils/!svn/ver/70/antismsspam/AntiSMSSpam/res/layout/imageswitcher.xml
+END
+history_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sms_utils/!svn/ver/50/antismsspam/AntiSMSSpam/res/layout/history_record.xml
+END
+main_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/main_activity.xml
+END
+tabs_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/tabs_bg.xml
+END
+contact_picker_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/contact_picker_activity.xml
+END
+private_setting_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/private_setting_setting.xml
+END
+ce_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/ce_item.xml
+END
+set_outgoing_background.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sms_utils/!svn/ver/70/antismsspam/AntiSMSSpam/res/layout/set_outgoing_background.xml
+END
+row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms_utils/!svn/ver/69/antismsspam/AntiSMSSpam/res/layout/row.xml
+END
+custom_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sms_utils/!svn/ver/69/antismsspam/AntiSMSSpam/res/layout/custom_layout.xml
+END
+list_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms_utils/!svn/ver/57/antismsspam/AntiSMSSpam/res/layout/list_setting.xml
+END
+conversation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms_utils/!svn/ver/57/antismsspam/AntiSMSSpam/res/layout/conversation.xml
+END
+popup_private_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/popup_private_settings.xml
+END
+set_incoming_background.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sms_utils/!svn/ver/70/antismsspam/AntiSMSSpam/res/layout/set_incoming_background.xml
+END
+password_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/layout/password_activity.xml
+END
+set_incoming.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms_utils/!svn/ver/70/antismsspam/AntiSMSSpam/res/layout/set_incoming.xml
+END

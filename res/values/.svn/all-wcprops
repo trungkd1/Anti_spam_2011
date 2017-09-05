@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/values
+END
+colors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms_utils/!svn/ver/57/antismsspam/AntiSMSSpam/res/values/colors.xml
+END
+changelog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/values/changelog.xml
+END
+strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms_utils/!svn/ver/69/antismsspam/AntiSMSSpam/res/values/strings.xml
+END
+local_ad.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/res/values/local_ad.xml
+END

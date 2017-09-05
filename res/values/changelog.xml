@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- preferences -->
+<resources>
+	<string name="app_version">1.23</string>
+
+	<string name="updates_title">Introduction</string>
+	<string-array name="updates">
+		<item>V 1.23\n- Added custom number \n- Option to whitelist with numbers in contacts</item>
+		<item>Usage: Click setting from main screen then turn On/Off from main
+			screen</item>
+		<item>Setup spam filter: click on setting/blacklist button, then type unwanted
+			numbers/contacts
+			or import from call log/sms. Next, define keywords to filter out.
+		</item>
+
+		<item>Set up whitelist: setting/whitelist button to define un-block numbers</item>
+
+		<item>Set up private filter: Click on private button, then set up
+			password. The keyword and number list
+			are the same to spam filter.</item>
+
+		<item>Known issues:</item>
+		<item>- May be conflict with other SMS app such as Go SMS, Handcent, or SMS Popup</item>
+
+		<item>Your suggestions are welcome.</item>
+
+	</string-array>
+</resources>
+

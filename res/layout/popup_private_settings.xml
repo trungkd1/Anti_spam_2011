@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:background="@android:drawable/alert_light_frame">
+	<TableRow>
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:id="@+id/action_private_list"
+			android:text="@string/private_filters" android:minWidth="80dp"
+			android:maxLines="1" android:minHeight="80dp" android:drawableTop="@drawable/ic_private"/>
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:id="@+id/action_option"
+			android:text="@string/option" android:minWidth="80dp" android:maxLines="1"
+			android:minHeight="80dp" android:drawableTop="@drawable/ic_check"/>
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:id="@+id/action_passwd"
+			android:text="@string/password" android:maxLines="1" android:minWidth="80dp"
+			android:minHeight="80dp" android:drawableTop="@drawable/ic_password"/>
+	</TableRow>
+</TableLayout>

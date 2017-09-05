@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:background="@android:drawable/alert_light_frame">
+	<TableRow>
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:id="@+id/action_blacklist"
+			android:text="@string/blacklist" android:minWidth="80dp" android:maxLines="2"
+			android:minHeight="80dp" android:drawableTop="@drawable/ic_block"/>
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:id="@+id/action_whitelist"
+			android:text="@string/whitelist" android:minWidth="80dp" android:maxLines="2"
+			android:minHeight="80dp" android:drawableTop="@drawable/ic_bypass"/>
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:id="@+id/action_passwd"
+			android:text="@string/password" android:maxLines="2" android:minWidth="80dp"
+			android:minHeight="80dp" android:drawableTop="@drawable/ic_password"/>
+	</TableRow>
+</TableLayout>

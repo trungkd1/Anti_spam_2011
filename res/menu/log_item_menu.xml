@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_reply_this" android:title="@string/reply" />
+	<item android:id="@+id/menu_call_this" android:title="@string/call" />
+	<item android:id="@+id/menu_delete_this" android:title="@string/delete_log" />
+	<item android:id="@+id/menu_delete_all" android:title="@string/delete_log_number" />
+	<item android:id="@+id/menu_show_all" android:title="@string/show_log_number" />
+	<item android:id="@+id/menu_restore_this" android:title="@string/restore_log" />
+	<item android:id="@+id/menu_restore_all" android:title="@string/restore_log_number" />
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+<string name="comment">Bình luận</string>
+<string name="donate">Tặng</string>
+<string name="help">Trợ giúp</string>
+<string name="reply">Trả lời</string>
+<string name="call">Call</string>
+<string name="delete_log">Xóa đăng nhập</string>
+<string name="delete_log_number">Xóa các bản ghi cho số này</string>
+<string name="show_log_number">Hiện các bản ghi cho số này</string>
+<string name="restore_log">Khôi phục này đăng nhập</string>
+<string name="restore_log_number">Khôi phục các bản ghi cho số này</string>
+<string name="restore_all">Khôi phục tất cả</string>
+<string name="delete_all">Xóa tất cả</string>
+<string name="change_password">Thay đổi mật khẩu</string>
+<string name="reply_private">Trả lời (tư nhân)</string>
+</resources>

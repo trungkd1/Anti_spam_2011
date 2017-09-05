@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:selectable="true">
+	<PreferenceCategory android:title="Private Box">
+		<CheckBoxPreference android:key="enable_dial"
+			android:title="@string/enable_dial"></CheckBoxPreference>
+		<CheckBoxPreference android:key="hide_private_box_button"
+			android:summaryOn="@string/hide_private_box_button_on"
+			android:summaryOff="@string/hide_private_box_button_off"
+			android:title="@string/hide_private_box_button"></CheckBoxPreference>
+		<EditTextPreference android:key="dial_number"
+			android:summary="@string/dial_number_sum" android:title="@string/dial_number"
+			android:defaultValue="888"></EditTextPreference>
+		<CheckBoxPreference android:key="disable_password"
+			android:title="@string/disable_password" android:summary="@string/disable_password_sum"></CheckBoxPreference>
+		<Preference android:key="custom_layout"
+			android:title="@string/custom_layout" ></Preference>
+	
+	
+	</PreferenceCategory>
+
+
+</PreferenceScreen>

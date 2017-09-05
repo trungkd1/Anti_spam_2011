@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/layoutModel1">
+
+	<LinearLayout android:id="@+id/ad_container"  android:layout_weight="1"
+		android:orientation="vertical" android:layout_height="wrap_content"
+		android:gravity="top" android:layout_width="fill_parent">
+
+	<include android:id="@+id/row" layout="@layout/row"/>
+
+	</LinearLayout>
+
+	<FrameLayout android:id="@+id/ad_container"  android:layout_weight="1" 
+		android:orientation="vertical" android:layout_height="wrap_content"
+		android:gravity="top" android:layout_width="fill_parent">
+
+		<SlidingDrawer android:id="@+id/sliding"
+			android:content="@+id/contentLayout" android:layout_width="fill_parent"
+			android:topOffset="25dip" android:alwaysDrawnWithCache="false"
+			android:handle="@+id/handle" android:layout_height="wrap_content">
+
+			<ImageView android:id="@+id/handle" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:background="@drawable/tray_handle_normal" />
+			<LinearLayout android:id="@+id/contentLayout"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<ViewFlipper android:id="@+id/viewflipper"
+					android:background="@color/grey" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<ListView android:id="@+id/listviewSetting"
+						android:layout_width="fill_parent" android:layout_height="wrap_content" />
+					<ScrollView android:layout_width="fill_parent"
+						android:layout_height="wrap_content">
+						<include android:id="@+id/set_background" layout="@layout/set_background" />
+
+					</ScrollView>
+					<include android:id="@+id/set_background" layout="@layout/set_background" />
+					<include android:id="@+id/set_background" layout="@layout/set_incoming_background" />
+					<include android:id="@+id/set_incoming" layout="@layout/set_incoming" />
+					<include android:id="@+id/set_background" layout="@layout/set_outgoing_background" />
+				</ViewFlipper>
+			</LinearLayout>
+		</SlidingDrawer>
+
+	</FrameLayout>
+
+
+</FrameLayout>

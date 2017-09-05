@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+
+		<TextView android:text="Background Style" android:id="@+id/textView1"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"></TextView>
+		
+			<Button android:id="@+id/radioImage" android:text="Image"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:checked="true" />
+			<Button android:id="@+id/radioColor" android:text="Color"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:checked="false" />
+	
+	</LinearLayout>
+
+		<LinearLayout android:id="@+id/layoutImage"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="RED" />
+			<SeekBar android:id="@+id/seekred" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:max="255" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="GREEN" />
+			<SeekBar android:id="@+id/seekgreen" android:layout_width="fill_parent"
+				android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+				android:indeterminateBehavior="cycle" android:layout_height="wrap_content"
+				android:max="255" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="BLUE" />
+			<SeekBar android:id="@+id/seekblue" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:max="255" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="ALPHA" />
+			<SeekBar android:id="@+id/seekalpha" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:max="255" />
+		</LinearLayout>
+
+		
+	
+</LinearLayout>

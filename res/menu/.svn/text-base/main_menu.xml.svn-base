@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/menu_restore_all" android:title="@string/restore_all" />
+	<item android:id="@+id/menu_delete_all" android:title="@string/delete_all" />
+	<item android:id="@+id/menu_change_password" android:title="@string/change_password"
+		android:visible="false" />
+	<item android:id="@+id/donate" android:title="@string/donate" />
+
+	<item android:id="@+id/comment" android:title="@string/comment"
+		android:icon="@drawable/comment" />
+	<item android:id="@+id/help" android:title="@string/help"
+		android:icon="@drawable/help" />
+</menu>

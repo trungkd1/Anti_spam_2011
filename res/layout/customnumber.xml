@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<TextView android:id="@+id/TextView01" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="@string/custom_contact_info"
+		android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+	<AutoCompleteTextView android:completionThreshold="1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:hint="@string/custom_contact_hints" android:id="@+id/txtNumber" />
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="@string/custom_match"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<Spinner android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/spn_match_option"
+		android:entries="@array/match_option"/>
+
+	<Button android:id="@+id/btnAdd" android:text="Add number"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:drawableRight="@drawable/addicon"/>
+
+</LinearLayout>
+

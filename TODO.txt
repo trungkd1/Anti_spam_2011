@@ -1,0 +1,33 @@
+Hi,
+just a suggestion for your android "anti sms spam": it would be useful to have a counter of blacklisted SMS.
+Thank you for your job!
+
+Reply
+
+Hello
+
+Your prog is quite good!!!
+In next version would you add prefix and susfix to private numbers?
+Is good option to hide any numbers starts with number for ex. 101xxxxxxx  in my country sms send from net start with this prefix.
+
+Very thenx and good job
+
+
+Thanks a lot for your quick response.
+I have not activated block unknown numbers. But yes, I am using text filters. 
+Most of the bulk spam sms that we get these days do not show the sender's number. 
+They only show some text. But I  also need to get important sms related to my work 
+which are also  sent as bulk sms showing only text as sender's number . 
+What do I do so that sms from these  numbers are not blocked?
+
+ Bal krishna
+
+Mehmet Giritli 
+
+I have a small suggestion for the whitelist feature. Is it possible to
+add a button just like with the blacklist, so that enabling it will
+automatically whitelist all the contacts? Currently you have to add them
+one by one and it is very tiresome.
+
+Best.
+ 

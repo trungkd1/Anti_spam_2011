@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Anti SMS Spam</string>
+	<string name="cancel">Cancel</string>
+	<string name="confirmation">Confirmation</string>
+	<string name="contact_remove_message">Remove selected contact(s)?</string>
+	<string name="all">All</string>
+	<string name="last">Last</string>
+	<string name="exit">Exit</string>
+	<string name="black_list">Black List (%d): </string>
+
+	<string name="clear_history">Clear history</string>
+	<string name="sort">Sort</string>
+	<string name="most_recent">Most recent</string>
+
+	<string name="from_to">%1$s to %2$s</string>
+	<string name="no_item_checked">No item selected</string>
+	<string name="yes">Yes</string>
+	<string name="confirme_yes_all">Are you sure you want to delete all items?</string>
+	<string name="restore_yes_all">Are you sure you want to move all items to Inbox?
+	</string>
+	<string name="no">No</string>
+
+	<string name="keyword_hint">use ; as separator</string>
+	<string name="private_box">Private Box</string>
+	<string name="dial_number">Dial Number to open Private Box</string>
+	<string name="dial_number_sum">Open Private Box from dial pad</string>
+	<string name="hide_private_box_button_off">Show Private Box Button</string>
+	<string name="hide_private_box_button_on">Dial a number to open Private Box</string>
+	<string name="hide_private_box_button">Hide Private Box Button</string>
+	<string name="disable_password">Disable Password</string>
+	<string name="disable_password_sum">Disable Password when using dial</string>
+	<string name="enable_dial">Enable Dial Method</string>
+	<string name="purchase">Purchase</string>
+	<string name="pro_alert">This feature is available only in Pro version.
+		Purchase it now?</string>
+	<string name="pro_version">Pro Version</string>
+
+	<string name="whitelist_setting">Whitelist Settings</string>
+	<string name="blacklist_setting">Blacklist Settings</string>
+	<string name="intro_text">No log entry yet.\n Hint: Whitelist defines numbers
+		that
+		alway bypass regardless to blacklist. Blacklist defines numbers
+		and keywords that will be blocked except numbers in the whitelist
+	</string>
+	<string name="private_intro_text">No log entry yet.\nHint: Private box is access with
+		password protection. You should define private number list first. You
+		can also hide Private Box button by using dial a
+		number to open Private
+		Box feature.</string>
+
+	<string name="number_not_in_contact_on">Numbers not in Contacts: ON</string>
+	<string name="number_not_in_contact_off">Numbers not in Contacts: OFF</string>
+	<string name="block_keywords">Block keywords</string>
+	<string name="input_number_hint">type a number or a name</string>
+	<string name="type_number">Type a number</string>
+	<string name="type_sms">type a sms</string>
+	<string name="send">Send</string>
+	<string name="current_password">Current Password</string>
+	<string name="new_password">New Password</string>
+	<string name="confirm_password">Confirm Password</string>
+	<string name="private_filters">Private Filters</string>
+	<string name="option">Option</string>
+	<string name="blacklist">Blacklist</string>
+	<string name="whitelist">WhiteList</string>
+	<string name="private_keywords">Private keywords</string>
+	<string name="private_numbers">Private numbers</string>
+	<string name="password">Password</string>
+	<string name="block_numbers">Block numbers</string>
+	<string name="clear">Clear</string>
+	<string name="comment">Comment</string>
+	<string name="donate">Donate</string>
+	<string name="help">Help</string>
+	<string name="reply">Reply</string>
+	<string name="call">Call</string>
+	<string name="delete_log">Delete this log</string>
+	<string name="delete_log_number">Delete logs for this number</string>
+	<string name="show_log_number">Show logs for this number</string>
+	<string name="restore_log">Restore this log</string>
+	<string name="restore_log_number">Restore logs for this number</string>
+
+	<string name="restore_all">Restore all</string>
+	<string name="delete_all">Delete all</string>
+	<string name="change_password">Change password</string>
+	<string name="reply_private">Reply (private)</string>
+
+	<string name="app_on">Anti SMS Spam: ON</string>
+	<string name="app_off">Anti SMS Spam: OFF</string>
+
+	<string name="custom_match">Matching method</string>
+	<string name="custom_contact_info">You can use phone number or text as caller id
+		(ex.
+		0123456789 or Verizon)</string>
+	<string name="custom_contact_hints">Type a number or a name</string>
+	<string-array name="match_option">
+		<item>Exactly</item>
+		<item>Starts with</item>
+		<item>Ends with</item>
+		<item>Contains</item>
+	</string-array>
+
+	<string name="number_in_contact_on">Numbers in Contacts: ON</string>
+	<string name="number_in_contact_off">Numbers in Contacts: OFF</string>
+
+	<string name="exact_match">Exact Match</string>
+	<string name="starts_with">Starts with</string>
+	<string name="ends_with">Ends with</string>
+	<string name="contains">Contains</string>
+
+	<string name="custom_layout">Custom Layout</string>
+	<string-array name="match_custom_option">
+		<item>Background</item>
+		<item>Style</item>
+		<item>Color incoming background</item>
+		<item>Font incoming</item>
+		<item>Color outgoing background</item>
+		<item>Font outgoing</item>
+		<item>Date font color</item>
+		<item>Date font</item>
+	</string-array>
+
+
+	<array name="imageBackground">
+		<item>@drawable/background1</item>
+		<item>@drawable/background2</item>
+		
+	</array>
+
+
+</resources>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/src/org/baole/app/service
+END
+SmsPageReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sms_utils/!svn/ver/57/antismsspam/AntiSMSSpam/src/org/baole/app/service/SmsPageReceiver.java
+END
+DialReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sms_utils/!svn/ver/48/antismsspam/AntiSMSSpam/src/org/baole/app/service/DialReceiver.java
+END

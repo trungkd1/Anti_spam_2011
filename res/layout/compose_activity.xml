@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"  android:background="@color/grey"
+	xmlns:myapp="http://schemas.android.com/apk/res/org.baole.app.antismsspam" android:id="@+id/layoutModel"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<LinearLayout android:id="@+id/ad_container"
+		android:layout_height="wrap_content" android:layout_weight="10"
+		android:gravity="top" android:layout_width="fill_parent">
+
+		<ListView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/listview"
+			android:divider="@android:color/transparent" android:dividerHeight="10.0sp" />
+	</LinearLayout>
+
+	<ScrollView android:layout_width="fill_parent"
+		android:scrollbars="none" android:layout_height="wrap_content">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<TableLayout android:id="@+id/TableLayout01"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TableRow android:id="@+id/TableRow01"
+					android:layout_width="fill_parent" android:layout_height="wrap_content">
+				</TableRow>
+			</TableLayout>
+			<TextView android:id="@+id/txtSelectedContact"
+				android:layout_width="wrap_content" android:text=""
+				android:layout_height="wrap_content" android:minHeight="0px"
+				android:maxLines="3" android:scrollbars="vertical" />
+
+			<LinearLayout android:orientation="horizontal"
+				android:id="@+id/container_ad2" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+
+
+				<EditText android:id="@+id/txtMessage"
+					android:layout_width="0dip" android:hint="@string/type_sms"
+					android:maxLines="3" android:layout_height="wrap_content"
+					android:minLines="2" android:layout_weight="3"
+					android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+					android:maxLength="1000" android:imeOptions="actionSend|flagNoEnterAction" />
+
+				<Button android:id="@+id/btnSend" android:layout_width="0dip"
+					android:layout_weight="1" android:layout_height="wrap_content"
+					android:text="@string/send" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
+
